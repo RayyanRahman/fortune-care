@@ -7,6 +7,23 @@ https://rayyan-fortune-care.netlify.app/
 Introducing Fortune Care, a tailored app for elderly well-being. Find nearby doctors, schedule online consultations, and access a range of services at your fingertips. Prioritize health with ease and convenience, ensuring a holistic and connected approach to senior care.
 
 ## Screenshots
+![Screenshot 2023-11-25 212757](https://github.com/RayyanRahman/fortune-care/assets/129946782/fd8a02e9-d999-4e74-97e0-108ea2881a09)
+
+
+
+![Screenshot 2023-11-25 212830](https://github.com/RayyanRahman/fortune-care/assets/129946782/262ad72f-f345-468c-950e-f7e2155aea36)
+
+![Screenshot 2023-11-25 212908](https://github.com/RayyanRahman/fortune-care/assets/129946782/696f5675-edd2-4326-aeb6-fbd5e9a227ed)
+
+
+![Screenshot 2023-11-25 212932](https://github.com/RayyanRahman/fortune-care/assets/129946782/89e41d2f-ae43-4268-9a28-8927dfe8d997)
+
+
+![Screenshot 2023-11-25 213020](https://github.com/RayyanRahman/fortune-care/assets/129946782/a546d27c-02c7-420e-8641-ea3e962f1f5e)
+
+![Screenshot 2023-11-25 213057](https://github.com/RayyanRahman/fortune-care/assets/129946782/91e73a88-38ad-4046-a89e-2f67bc0f61d0)
+
+
 
 # Getting Started with Create React App
 
