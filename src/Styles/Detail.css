@@ -1,0 +1,72 @@
+.detail-container {
+    background-image: url("https://www.aurorahealthcare.org/assets/images/background/aurora-at-home-full-width-hero2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.detail-left {
+    width: 30vw;
+    height: 35vh;
+    color: white;
+}
+
+.detail-left button {
+    width: 30%;
+    height: 15%;
+    background-color: white;
+    color: rgb(243, 90, 7);
+    border: none;
+}
+
+.detail-left button:hover {
+    background-color: rgb(243, 90, 7);
+    color: white;
+    border: 1px solid white;
+}
+
+.detail-right {
+    padding-top: 2%;
+    text-align: center;
+    width: 30vw;
+    height: 35vh;
+    background-color: rgba(17, 17, 107, 0.781);
+    color: aliceblue;
+}
+
+.detail-right button {
+    width: 30%;
+    height: 15%;
+    background-color: rgba(17, 17, 107, 0.781);
+    color: aliceblue;
+    border: 1px solid white;
+}
+
+.detail-right button:hover{
+background-color: aliceblue;
+color:rgba(17, 17, 107, 0.781);
+border: 1px solid rgba(17, 17, 107, 0.781);
+}
+
+@media screen and (max-width: 768px) {
+    .detail-container {
+        height: auto;
+        min-height: 500px;
+    }
+
+    .detail-left,
+    .detail-right {
+        width: 80%;
+        max-width: none;
+        height: auto;
+    }
+
+    .detail-left button,
+    .detail-right button {
+        width: 50%;
+    }
+}

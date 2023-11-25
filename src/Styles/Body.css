@@ -1,0 +1,52 @@
+.body-container {
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(27, 27, 61);
+    height: 30%;
+}
+
+.heading {
+    padding-left: 10%;
+    color: rgb(27, 27, 61);
+    max-width: 50%;
+}
+
+.heading p {
+    width: 100%;
+    max-width: 40vw;
+    color: rgb(27, 27, 61);
+}
+
+.heading button {
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    background-color: rgb(243, 90, 7);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.heading button:hover {
+    background-color: white;
+    color: rgb(243, 90, 7);
+    border: 1px solid rgb(243, 90, 7);
+}
+
+@media screen and (max-width: 768px) {
+    .body-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .heading {
+        padding-left: 0;
+    }
+
+    .heading p,
+    .heading button {
+        max-width: 100%;
+    }
+}

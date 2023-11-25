@@ -1,0 +1,56 @@
+.carousel-container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, #4c9d5b 50%, white 40%);
+  margin-bottom: 5%;
+  overflow: hidden;
+}
+
+.carousel-item {
+  margin: 0 5px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inner-div img {
+  width: 80%;
+  max-width: 200px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.inner-div {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.body-heading {
+  margin: 2% 0 2% 5%;
+  padding-top: 2%;
+  color: snow;
+}
+
+.body-heading p {
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+
+.slick-dots {
+  bottom: 10px;
+}
+
+.slick-dots li button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #bbb;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #161515;
+}

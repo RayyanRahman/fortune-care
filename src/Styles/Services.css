@@ -1,0 +1,40 @@
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+}
+
+.main-container {
+    margin-top: -5%;
+    text-align: center;
+}
+
+.itemss {
+    height: 30vh;
+    width: 40vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px 0 0 0;
+}
+
+.itemss:hover {
+    background-color: rgb(141, 255, 141);
+}
+
+@media screen and (max-width: 768px) {
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .itemss {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .main-container {
+        margin-top: 0;
+    }
+}
